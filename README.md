@@ -1,2 +1,9 @@
 # dotenv-lite
-Zero-dependency .env parser and typed environment loader for Python services.
+
+Minimal `.env` parser and typed configuration helper for local services.
+
+## Usage
+```python
+from src.env_loader import load_env
+cfg = load_env('.env')
+```
